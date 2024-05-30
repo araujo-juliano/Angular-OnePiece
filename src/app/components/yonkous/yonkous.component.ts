@@ -8,13 +8,14 @@ import { DialogBigmomComponent } from '../dialog/yonkous/dialog-bigmom/dialog-bi
 import { DialogBuggyComponent } from '../dialog/yonkous/dialog-buggy/dialog-buggy.component';
 import { DialogLuffyYonkouComponent } from '../dialog/yonkous/dialog-luffy-yonkou/dialog-luffy-yonkou.component';
 import { DialogTeachComponent } from '../dialog/yonkous/dialog-teach/dialog-teach.component';
+import { DialogShanks1Component } from '../dialog/yonkous/dialog-shanks1/dialog-shanks1.component';
 
 @Component({
   selector: 'app-yonkous',
   standalone: true,
   imports: [],
   templateUrl: './yonkous.component.html',
-  styleUrl: './yonkous.component.scss'
+  styleUrl: '../scss/estiloGeral.scss'
 })
 export class YonkousComponent {
   #dialog = inject(MatDialog)
@@ -28,6 +29,12 @@ export class YonkousComponent {
 
   public openDialogShanks(data: any){
     this.#dialog.open(DialogShanksComponent, {
+      data,
+      panelClass: EDialogPanelClass.CARDS
+    })
+  }
+  public openDialogShanks1(data: any){
+    this.#dialog.open(DialogShanks1Component, {
       data,
       panelClass: EDialogPanelClass.CARDS
     })

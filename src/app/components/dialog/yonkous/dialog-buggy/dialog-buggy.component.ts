@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './dialog-buggy.component.html',
-  styleUrl: './dialog-buggy.component.scss'
+  styleUrl: '../../../scss/estiloDialog.scss'
 })
 export class DialogBuggyComponent {
 

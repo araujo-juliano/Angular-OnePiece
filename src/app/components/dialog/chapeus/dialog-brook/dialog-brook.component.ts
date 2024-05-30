@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './dialog-brook.component.html',
-  styleUrl: './dialog-brook.component.scss'
+  styleUrl: '../../../scss/estiloDialog.scss'
 })
 export class DialogBrookComponent {
 

@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './dialog-robin.component.html',
-  styleUrl: './dialog-robin.component.scss'
+  styleUrl: '../../../scss/estiloDialog.scss'
 })
 export class DialogRobinComponent {
 

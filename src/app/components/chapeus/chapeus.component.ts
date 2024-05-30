@@ -18,7 +18,7 @@ import { DialogJinbeComponent } from '../dialog/chapeus/dialog-jinbe/dialog-jinb
   standalone: true,
   imports: [],
   templateUrl: './chapeus.component.html',
-  styleUrl: './chapeus.component.scss'
+  styleUrl: '../scss/estiloGeral.scss'
 })
 export class ChapeusComponent {
   #dialog = inject(MatDialog)

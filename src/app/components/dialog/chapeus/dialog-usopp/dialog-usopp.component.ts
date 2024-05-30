@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './dialog-usopp.component.html',
-  styleUrl: './dialog-usopp.component.scss'
+  styleUrl: '../../../scss/estiloDialog.scss'
 })
 export class DialogUsoppComponent {
 

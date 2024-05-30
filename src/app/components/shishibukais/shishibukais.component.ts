@@ -1,7 +1,7 @@
 import { Component, inject, signal } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { EDialogPanelClass } from '../../enum/EDialogPanelClass.enum';
-import { DialogJinbeComponent } from '../dialog/chapeus/dialog-jinbe/dialog-jinbe.component';
+import { DialogJinbeComponent } from '../dialog/shishibukais/dialog-jinbe/dialog-jinbe.component';
 import { DialogCrocodileComponent } from '../dialog/shishibukais/dialog-crocodile/dialog-crocodile.component';
 import { DialogDoflamingoComponent } from '../dialog/shishibukais/dialog-doflamingo/dialog-doflamingo.component';
 import { DialogHancockComponent } from '../dialog/shishibukais/dialog-hancock/dialog-hancock.component';
@@ -14,7 +14,7 @@ import { DialogMoriaComponent } from '../dialog/shishibukais/dialog-moria/dialog
   standalone: true,
   imports: [],
   templateUrl: './shishibukais.component.html',
-  styleUrl: './shishibukais.component.scss'
+  styleUrl: '../scss/estiloGeral.scss'
 })
 export class ShishibukaisComponent {
   #dialog = inject(MatDialog)

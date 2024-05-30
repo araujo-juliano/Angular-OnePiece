@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './dialog-franky.component.html',
-  styleUrl: './dialog-franky.component.scss'
+  styleUrl: '../../../scss/estiloDialog.scss'
 })
 export class DialogFrankyComponent {
 

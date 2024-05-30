@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './dialog-luffy.component.html',
-  styleUrl: './dialog-luffy.component.scss'
+  styleUrl: '../../../scss/estiloDialog.scss'
 })
 export class DialogLuffyComponent {
 

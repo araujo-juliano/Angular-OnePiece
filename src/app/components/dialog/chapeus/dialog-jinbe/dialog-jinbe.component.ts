@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './dialog-jinbe.component.html',
-  styleUrl: './dialog-jinbe.component.scss'
+  styleUrl: '../../../scss/estiloDialog.scss'
 })
 export class DialogJinbeComponent {
 

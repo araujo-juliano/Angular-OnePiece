@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './dialog-kuma.component.html',
-  styleUrl: './dialog-kuma.component.scss'
+  styleUrl: '../../../scss/estiloDialog.scss'
 })
 export class DialogKumaComponent {
 

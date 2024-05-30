@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './dialog-nami.component.html',
-  styleUrl: './dialog-nami.component.scss'
+  styleUrl: '../../../scss/estiloDialog.scss'
 })
 export class DialogNamiComponent {
 

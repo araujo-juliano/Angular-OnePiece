@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './dialog-mihawk.component.html',
-  styleUrl: './dialog-mihawk.component.scss'
+  styleUrl: '../../../scss/estiloDialog.scss'
 })
 export class DialogMihawkComponent {
 

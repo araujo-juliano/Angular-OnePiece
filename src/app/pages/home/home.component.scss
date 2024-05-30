@@ -1,1 +1,13 @@
+.aplicacao {
+  margin-top: -1px;
+  background-image: url(../../../assets/fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
 
+@media screen and (max-width: 960px) {
+  .aplicacao {
+    background-size: cover;
+  }
+}
