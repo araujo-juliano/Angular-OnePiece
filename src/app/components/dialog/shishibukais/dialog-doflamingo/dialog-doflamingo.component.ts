@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './dialog-doflamingo.component.html',
-  styleUrl: './dialog-doflamingo.component.scss'
+  styleUrl: '../../../scss/estiloDialog.scss'
 })
 export class DialogDoflamingoComponent {
 

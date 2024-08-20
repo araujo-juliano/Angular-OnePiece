@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './dialog-sanji.component.html',
-  styleUrl: './dialog-sanji.component.scss'
+  styleUrl: '../../../scss/estiloDialog.scss'
 })
 export class DialogSanjiComponent {
 

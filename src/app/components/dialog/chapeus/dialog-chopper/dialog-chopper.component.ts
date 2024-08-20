@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './dialog-chopper.component.html',
-  styleUrl: './dialog-chopper.component.scss'
+  styleUrl: '../../../scss/estiloDialog.scss'
 })
 export class DialogChopperComponent {
 

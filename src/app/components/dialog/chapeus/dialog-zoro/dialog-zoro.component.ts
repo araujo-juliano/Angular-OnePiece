@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './dialog-zoro.component.html',
-  styleUrl: './dialog-zoro.component.scss'
+  styleUrl: '../../../scss/estiloDialog.scss'
 })
 export class DialogZoroComponent {
 

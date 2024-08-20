@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './dialog-hancock.component.html',
-  styleUrl: './dialog-hancock.component.scss'
+  styleUrl: '../../../scss/estiloDialog.scss'
 })
 export class DialogHancockComponent {
 

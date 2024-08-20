@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './dialog-moria.component.html',
-  styleUrl: './dialog-moria.component.scss'
+  styleUrl: '../../../scss/estiloDialog.scss'
 })
 export class DialogMoriaComponent {
 

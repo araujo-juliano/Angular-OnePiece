@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './dialog-crocodile.component.html',
-  styleUrl: './dialog-crocodile.component.scss'
+  styleUrl: '../../../scss/estiloDialog.scss'
 })
 export class DialogCrocodileComponent {
 

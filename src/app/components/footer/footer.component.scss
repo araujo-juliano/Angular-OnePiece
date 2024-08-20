@@ -1,0 +1,29 @@
+:host {
+  .container {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #000000;
+    margin-top: 20px;
+    padding-top: 15px;
+    background-color: rgba(0, 0, 0, 0.582);
+  }
+  span {
+    font-weight: bold;
+  }
+  a {
+    font-size: 16px;
+    color: #8b8b8b;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .midia {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+
