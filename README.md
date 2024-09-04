@@ -1,27 +1,48 @@
 # OnePiece
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.5.
+![OnePiece](./src/assets/logo.png)
 
-## Development server
+Projeto sobre o universo do Mangá/Anime de One Piece ☠ ⚓
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Índice
 
-## Code scaffolding
+- <a href="#estrutura">Estrutura do Projeto</a>
+- <a href="#layout">Layout</a>
+- <a href="#tecnologias">Tecnologias Utilizadas</a>
+- <a href="#autora">Pessoa Autora</a>
+- <a href="#passos">Próximos Passos</a>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 📚 Estrutura do Projeto
 
-## Build
+- [x] Cartazes do Bando dos Chápeus de Palha (Protagonistas);
+- [x] Cartazes dos Yonkous (Antigos e Atuais);
+- [x] Cartazes dos Shishibukais;
+- [x] Cartazes do Exército Revolucionário;
+- [x] Cartazes da Marinha (Vice Almirantes);
+- [x] Cartazes dos Almirantes da Marinha;
+- [x] Cartazes do Governo Mundial;
+- [x] Todos os cartazes são clicáveis abrindo um modal com mais informações sobre o personagem específico;
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 📱 Layout
 
-## Running unit tests
+![Chapéus de Palha](./src/assets/readme/foto_1.png)
+![Yonkous Antigos e Novos](./src/assets/readme/foto_2.png)
+![Governo Mundial](./src/assets/readme/foto_3.png)
+![Dialog aberto do Luffy](./src/assets/readme/foto_4.png)
+![Dialog aberto do Barba Negra](./src/assets/readme/foto_5.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🛠 Tecnologias Utilizadas
 
-## Running end-to-end tests
+1. [Angular](https://angular.dev/)
+2. [Angular Material Dialog](https://material.angular.io/components/dialog/overview)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## © Pessoa Autora
 
-## Further help
+<img style="width: 200px" src="./src/assets/readme/quadrado.png" alt="Foto do autor Juliano Araujo">
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[Linkedin](https://www.linkedin.com/in/araujo-juliano/)
+
+## 💡 Próximos Passos
+
+- [ ] Aumentar os personagens disponíveis;
+- [ ] Colocar sessão de Navios;
